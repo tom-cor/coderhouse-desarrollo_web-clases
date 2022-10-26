@@ -1,0 +1,51 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#pepe{
+    color: blueviolet;
+    text-align: center;
+    text-decoration: underline wavy;
+}
+
+section h2{
+    color: darkcyan;
+}
+
+footer div a{
+    color: darkred;
+}
+
+.section_titulo{
+    color: darkturquoise;
+}
+
+.nav_modificada ul li{
+    color: chartreuse;
+    text-decoration: none;
+}
+
+.titutlos{
+    font-size: 20px;
+    color: salmon !important;
+}
+
+body img{
+    border-radius: 5%;
+}
+
+ul{
+    list-style: square;
+}
+
+p{
+    background-color: grey;
+    opacity: 90%;
+}
+
+.body{
+    background-color: #002b36;
+    background-image: url("../img/wave");
+}

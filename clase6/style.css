@@ -1,0 +1,42 @@
+.div1 {
+    grid-area: div1;
+    background-color: aqua;
+}
+
+.div2 {
+    grid-area: div2;
+    background-color: red;
+}
+
+.div3 {
+    grid-area: div3;
+    background-color: blueviolet;
+}
+
+.div4 {
+    grid-area: div4;
+    background-color: orangered;
+}
+
+.div5 {
+    grid-area: div5;
+    background-color: grey;
+}
+
+.div6 {
+    grid-area: div6;
+    background-color: greenyellow;
+}
+
+section {
+    display: grid;
+    grid-template-areas: 
+        "div1 div2 div2"
+        "div1 div3 div5"
+        "div1 div4 div5"
+        "div1 div6 div6";
+    grid-template-rows: 100px 1fr 1fr 75px;
+    grid-template-columns: 20% auto 15%;
+    row-gap: 5px;
+    column-gap: 15px;
+}

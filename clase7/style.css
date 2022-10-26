@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "menuIzq imagen menuDer";
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+.menuIzq{
+    grid-area: manuIzq;
+}
+
+.menuDer{
+    grid-area: menuDer;
+}
+
+.imagenHeader img{
+      width: 20%;
+      
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "texto imagen"
+    "textodos textodos";
+}
+
+.primerParrafo{
+    grid-area: texto;
+}
+
+section img{
+    grid-area: imagen;
+}
+
+.segundoParrafo{
+    grid-area: textodos;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer img{
+    width: 20%;
+}
+
+@media screen and (min-width:) {
+    
+}
